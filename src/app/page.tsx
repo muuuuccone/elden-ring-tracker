@@ -1,14 +1,17 @@
 'use client'
-import styles from "./page.module.css";
-import SaveDataUploader from "@/components/file_uploader";
 import {SaveDataContextProvider} from "@/context/SaveDataContet";
 import ZoneTabs from "@/components/zone_tabs/ZoneTabs";
+import {useSearchParams} from "next/navigation";
+import EmptyZone from "@/components/empty_zone";
 
 export default function Home() {
+    const params = useSearchParams();
+    const zone = params.get('zone');
+
     return (
         <SaveDataContextProvider>
             <main>
-                <ZoneTabs/>
+                {zone ? <ZoneTabs/> : <EmptyZone/>}
             </main>
         </SaveDataContextProvider>
     );

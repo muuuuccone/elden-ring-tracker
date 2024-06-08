@@ -1,6 +1,6 @@
 'use client'
 
-import {ReactNode, useEffect, useState} from "react";
+import {ReactNode, useState} from "react";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
@@ -15,7 +15,7 @@ import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import styles from './index.module.css';
 import {getZones} from "@/utils/functions/getZones";
-import {useRouter} from "next/navigation";
+import {useRouter, useSearchParams} from "next/navigation";
 
 const drawerWidth = 240;
 
@@ -27,6 +27,8 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
     const router = useRouter();
     const [mobileOpen, setMobileOpen] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
+    const params = useSearchParams();
+    const zone = params.get('zone');
 
     const handleDrawerClose = () => {
         setIsClosing(true);
@@ -60,7 +62,7 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
             </ListItem>
             <Divider/>
             <List>
-                {zones && zones.map((text, index) => (
+                {zones && zones.map((text) => (
                     <ListItem key={text} disablePadding>
                         <ListItemButton onClick={() => setParams(text)}>
                             <ListItemText primary={text}/>
@@ -91,7 +93,7 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                        Responsive drawer
+                        {zone ? zone : 'Elden Ring Tracker'}
                     </Typography>
                 </Toolbar>
             </AppBar>
