@@ -1,12 +1,10 @@
-async function readJsonFiles() {
-    try {
-        let res = await fetch("assets/json/data.json");
-        const itemsData = await res.json();
-        res = await fetch("assets/json/collectibles.json");
-        const quantifiableItems = await res.json();
-        return { itemsData, quantifiableItems };
-    }
-    catch (e) {
-        console.error(e);
-    }
+import itemsData from "@/data/items.json";
+import collectibles from "@/data/collectibles.json";
+
+export function getItems() {
+    return itemsData;
+}
+
+export function getCollectibles() {
+    return collectibles;
 }

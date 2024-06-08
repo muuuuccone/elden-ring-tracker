@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import {SaveDataContextProvider} from "@/context/SaveDataContet";
+import ThemeRegistry from "@/theme/ThemeRegistry";
+import ResponsiveDrawer from "@/components/drawer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}
+      <ThemeRegistry options={{key: 'mui'}}>
+          <ResponsiveDrawer>
+            {children}
+          </ResponsiveDrawer>
+      </ThemeRegistry>
       </body>
     </html>
   );
