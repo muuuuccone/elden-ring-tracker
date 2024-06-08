@@ -16,7 +16,5 @@ export function sanitizeName(name: string) {
         _name = 'Note'
     }
 
-    console.log(_name)
-
     return _name
 }

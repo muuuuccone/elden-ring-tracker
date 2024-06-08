@@ -1,5 +1,5 @@
 'use client'
-import {SaveDataContextProvider} from "@/context/SaveDataContet";
+import {SaveDataContextProvider} from "@/context/SaveDataContext";
 import ZoneTabs from "@/components/zone_tabs/ZoneTabs";
 import {useSearchParams} from "next/navigation";
 import EmptyZone from "@/components/empty_zone";

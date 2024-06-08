@@ -6,14 +6,18 @@ import {sanitizeName} from "@/utils/functions/sanitizeName";
 import Typography from "@mui/material/Typography";
 import {ChangeEvent, useEffect, useState} from "react";
 import styles from './index.module.css';
+import useSaveData from "@/hooks/useSaveData";
 
 
 export default function ItemsCard({name, type, hint, multiple, id}: Item) {
+    const {inventory, dispatch} = useSaveData();
     const [acquired, setAcquired] = useState(false);
 
     useEffect(() => {
-        /*TODO determine if acquired*/
-    },[]);
+        if (inventory.includes(id)) {
+            setAcquired(true);
+        }
+    },[inventory]);
 
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
         setAcquired(event.target.checked);

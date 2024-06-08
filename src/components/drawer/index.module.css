@@ -1,3 +1,18 @@
 .children {
     padding: 6rem 1rem 1rem;
 }
+
+.drawer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .load {
+        text-align: center;
+
+        & button {
+            margin-block: 2rem;
+        }
+    }
+}

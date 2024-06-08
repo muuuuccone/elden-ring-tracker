@@ -1,5 +1,5 @@
 import {useContext} from "react";
-import SaveDataContext from "@/context/SaveDataContet";
+import SaveDataContext from "@/context/SaveDataContext";
 
 const useSaveData = () => {
     return useContext(SaveDataContext)

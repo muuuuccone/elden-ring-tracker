@@ -16,6 +16,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import styles from './index.module.css';
 import {getZones} from "@/utils/functions/getZones";
 import {useRouter, useSearchParams} from "next/navigation";
+import {Button, Card, Dialog, DialogActions, DialogTitle, Modal} from "@mui/material";
+import {DialogBody} from "next/dist/client/components/react-dev-overlay/internal/components/Dialog";
+import SaveDialog from "@/components/save_dialog";
 
 const drawerWidth = 240;
 
@@ -23,10 +26,11 @@ type DrawerProps = {
     children: ReactNode | ReactNode[]
 }
 
-export default function ResponsiveDrawer({children}: DrawerProps ) {
+export default function ResponsiveDrawer({children}: DrawerProps) {
     const router = useRouter();
     const [mobileOpen, setMobileOpen] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false);
     const params = useSearchParams();
     const zone = params.get('zone');
 
@@ -45,6 +49,10 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
         }
     };
 
+    const handleModalOpen = () => {
+        setModalOpen(!modalOpen);
+    }
+
     const zones = getZones();
 
     const setParams = (param: string) => {
@@ -52,34 +60,43 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
     }
 
     const drawer = (
-        <div>
-            <Toolbar/>
-            <Divider/>
-            <ListItem disablePadding>
-                <ListItemButton onClick={() => setParams('Collectibles')}>
-                    <ListItemText primary={'Collectibles'}/>
-                </ListItemButton>
-            </ListItem>
-            <Divider/>
-            <List>
-                {zones && zones.map((text) => (
-                    <ListItem key={text} disablePadding>
-                        <ListItemButton onClick={() => setParams(text)}>
-                            <ListItemText primary={text}/>
-                        </ListItemButton>
-                    </ListItem>
-                ))}
-            </List>
+        <div className={styles.drawer}>
+            <Box>
+                <Toolbar/>
+                <Divider/>
+                <ListItem disablePadding>
+                    <ListItemButton onClick={() => setParams('Collectibles')}>
+                        <ListItemText primary={'Collectibles'}/>
+                    </ListItemButton>
+                </ListItem>
+                <Divider/>
+                <List>
+                    {zones && zones.map((text) => (
+                        <ListItem key={text} disablePadding>
+                            <ListItemButton onClick={() => setParams(text)}>
+                                <ListItemText primary={text}/>
+                            </ListItemButton>
+                        </ListItem>
+                    ))}
+                </List>
+            </Box>
+            <Box className={styles.load} onClick={handleModalOpen}>
+                <Divider/>
+                <Button variant={'contained'}>
+                    Load save data
+                </Button>
+            </Box>
         </div>
     );
 
     return (
-        <Box sx={{ display: 'flex' }}>
+        <Box sx={{display: 'flex'}}>
+            <SaveDialog modalOpen={modalOpen} handleModalOpen={handleModalOpen}/>
             <AppBar
                 position="fixed"
                 sx={{
-                    width: { sm: `calc(100% - ${drawerWidth}px)` },
-                    ml: { sm: `${drawerWidth}px` },
+                    width: {sm: `calc(100% - ${drawerWidth}px)`},
+                    ml: {sm: `${drawerWidth}px`},
                 }}
             >
                 <Toolbar>
@@ -88,9 +105,9 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
                         aria-label="open drawer"
                         edge="start"
                         onClick={handleDrawerToggle}
-                        sx={{ mr: 2, display: { sm: 'none' } }}
+                        sx={{mr: 2, display: {sm: 'none'}}}
                     >
-                        <MenuIcon />
+                        <MenuIcon/>
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
                         {zone ? zone : 'Elden Ring Tracker'}
@@ -99,7 +116,7 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
             </AppBar>
             <Box
                 component="nav"
-                sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 }}}
+                sx={{width: {sm: drawerWidth}, flexShrink: {sm: 0}}}
                 aria-label="mailbox folders"
             >
                 <Drawer
@@ -111,8 +128,8 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
                         keepMounted: true, // Better open performance on mobile.
                     }}
                     sx={{
-                        display: { xs: 'block', sm: 'none' },
-                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                        display: {xs: 'block', sm: 'none'},
+                        '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},
                     }}
                 >
                     {drawer}
@@ -120,8 +137,8 @@ export default function ResponsiveDrawer({children}: DrawerProps ) {
                 <Drawer
                     variant="permanent"
                     sx={{
-                        display: { xs: 'none', sm: 'block' },
-                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                        display: {xs: 'none', sm: 'block'},
+                        '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},
                     }}
                     open
                 >

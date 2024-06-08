@@ -1,8 +1,4 @@
 'use client'
-import Tab from '@mui/material/Tab';
-import TabContext from '@mui/lab/TabContext';
-import TabList from '@mui/lab/TabList';
-import TabPanel from '@mui/lab/TabPanel';
 import {Box, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent} from "@mui/material";
 import {SyntheticEvent, useEffect, useState} from "react";
 import {getSubZones} from "@/utils/functions/getZones";
@@ -14,7 +10,6 @@ export default function ZoneTabs(){
     const router = useRouter();
     const params = useSearchParams();
     const zone = params.get('zone');
-    const subzone = params.get('subzone');
 
     useEffect(() => {
         setValue(params.get('subzone') || '');
