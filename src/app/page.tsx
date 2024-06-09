@@ -2,6 +2,7 @@
 import ZoneTabs from "@/components/zone_tabs/ZoneTabs";
 import {useSearchParams} from "next/navigation";
 import EmptyZone from "@/components/empty_zone";
+import {Suspense} from "react";
 
 export default function Home() {
     const params = useSearchParams();
