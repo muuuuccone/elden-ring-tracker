@@ -16,9 +16,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import styles from './index.module.css';
 import {getZones} from "@/utils/functions/getZones";
 import {useRouter, useSearchParams} from "next/navigation";
-import {Button, Card, Dialog, DialogActions, DialogTitle, Modal} from "@mui/material";
-import {DialogBody} from "next/dist/client/components/react-dev-overlay/internal/components/Dialog";
+import {Button} from "@mui/material";
 import SaveDialog from "@/components/save_dialog";
+import {SaveDataContextProvider} from "@/context/SaveDataContext";
+import Image from "next/image";
 
 const drawerWidth = 240;
 
@@ -62,13 +63,17 @@ export default function ResponsiveDrawer({children}: DrawerProps) {
     const drawer = (
         <div className={styles.drawer}>
             <Box>
-                <Toolbar/>
-                <Divider/>
+                <Toolbar>
+                    <Box>
+                        <Image src={'/images/logo.png'} alt={'logo'} objectFit={'contain'} fill/>
+                    </Box>
+                </Toolbar>
+                {/*<Divider/>
                 <ListItem disablePadding>
                     <ListItemButton onClick={() => setParams('Collectibles')}>
                         <ListItemText primary={'Collectibles'}/>
                     </ListItemButton>
-                </ListItem>
+                </ListItem>*/}
                 <Divider/>
                 <List>
                     {zones && zones.map((text) => (
@@ -90,64 +95,66 @@ export default function ResponsiveDrawer({children}: DrawerProps) {
     );
 
     return (
-        <Box sx={{display: 'flex'}}>
-            <SaveDialog modalOpen={modalOpen} handleModalOpen={handleModalOpen}/>
-            <AppBar
-                position="fixed"
-                sx={{
-                    width: {sm: `calc(100% - ${drawerWidth}px)`},
-                    ml: {sm: `${drawerWidth}px`},
-                }}
-            >
-                <Toolbar>
-                    <IconButton
-                        color="inherit"
-                        aria-label="open drawer"
-                        edge="start"
-                        onClick={handleDrawerToggle}
-                        sx={{mr: 2, display: {sm: 'none'}}}
+        <SaveDataContextProvider>
+            <Box sx={{display: 'flex'}}>
+                <SaveDialog modalOpen={modalOpen} handleModalOpen={handleModalOpen}/>
+                <AppBar
+                    position="fixed"
+                    sx={{
+                        width: {sm: `calc(100% - ${drawerWidth}px)`},
+                        ml: {sm: `${drawerWidth}px`},
+                    }}
+                >
+                    <Toolbar className={styles.appBar}>
+                        <IconButton
+                            color="inherit"
+                            aria-label="open drawer"
+                            edge="start"
+                            onClick={handleDrawerToggle}
+                            sx={{mr: 2, display: {sm: 'none'}}}
+                        >
+                            <MenuIcon/>
+                        </IconButton>
+                        <Typography variant="h6" noWrap component="div">
+                            {zone ? zone : 'Elden Ring Tracker'}
+                        </Typography>
+                    </Toolbar>
+                </AppBar>
+                <Box
+                    component="nav"
+                    sx={{width: {sm: drawerWidth}, flexShrink: {sm: 0}}}
+                    aria-label="mailbox folders"
+                >
+                    <Drawer
+                        variant="temporary"
+                        open={mobileOpen}
+                        onTransitionEnd={handleDrawerTransitionEnd}
+                        onClose={handleDrawerClose}
+                        ModalProps={{
+                            keepMounted: true, // Better open performance on mobile.
+                        }}
+                        sx={{
+                            display: {xs: 'block', sm: 'none'},
+                            '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},
+                        }}
                     >
-                        <MenuIcon/>
-                    </IconButton>
-                    <Typography variant="h6" noWrap component="div">
-                        {zone ? zone : 'Elden Ring Tracker'}
-                    </Typography>
-                </Toolbar>
-            </AppBar>
-            <Box
-                component="nav"
-                sx={{width: {sm: drawerWidth}, flexShrink: {sm: 0}}}
-                aria-label="mailbox folders"
-            >
-                <Drawer
-                    variant="temporary"
-                    open={mobileOpen}
-                    onTransitionEnd={handleDrawerTransitionEnd}
-                    onClose={handleDrawerClose}
-                    ModalProps={{
-                        keepMounted: true, // Better open performance on mobile.
-                    }}
-                    sx={{
-                        display: {xs: 'block', sm: 'none'},
-                        '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},
-                    }}
-                >
-                    {drawer}
-                </Drawer>
-                <Drawer
-                    variant="permanent"
-                    sx={{
-                        display: {xs: 'none', sm: 'block'},
-                        '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},
-                    }}
-                    open
-                >
-                    {drawer}
-                </Drawer>
+                        {drawer}
+                    </Drawer>
+                    <Drawer
+                        variant="permanent"
+                        sx={{
+                            display: {xs: 'none', sm: 'block'},
+                            '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},
+                        }}
+                        open
+                    >
+                        {drawer}
+                    </Drawer>
+                </Box>
+                <Box className={styles.children} sx={{width: `calc(100% - ${drawerWidth}px)`}}>
+                    {children}
+                </Box>
             </Box>
-            <Box className={styles.children} sx={{width: `calc(100% - ${drawerWidth}px)`}}>
-                {children}
-            </Box>
-        </Box>
+        </SaveDataContextProvider>
     )
 }

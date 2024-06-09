@@ -1,5 +1,4 @@
 'use client'
-import {SaveDataContextProvider} from "@/context/SaveDataContext";
 import ZoneTabs from "@/components/zone_tabs/ZoneTabs";
 import {useSearchParams} from "next/navigation";
 import EmptyZone from "@/components/empty_zone";
@@ -9,10 +8,8 @@ export default function Home() {
     const zone = params.get('zone');
 
     return (
-        <SaveDataContextProvider>
-            <main>
-                {zone ? <ZoneTabs/> : <EmptyZone/>}
-            </main>
-        </SaveDataContextProvider>
+        <main>
+            {zone ? <ZoneTabs/> : <EmptyZone/>}
+        </main>
     );
 }

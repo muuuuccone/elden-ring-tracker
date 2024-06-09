@@ -1,6 +1,6 @@
 'use client'
 import {Box, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent} from "@mui/material";
-import {SyntheticEvent, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import {getSubZones} from "@/utils/functions/getZones";
 import {useRouter, useSearchParams} from "next/navigation";
 import ItemsGrid from "@/components/items_grid";
@@ -24,7 +24,7 @@ export default function ZoneTabs(){
     return(
         <Box sx={{minWidth: 400}}>
             <FormControl fullWidth>
-                <InputLabel>Select the zone:</InputLabel>
+                <InputLabel>{zone === 'Quests' ? "Select the quest" : "Select the zone"}:</InputLabel>
                 <Select
                     label='Select the zone:'
                     labelId='zone-select-label'

@@ -7,7 +7,7 @@ export const eldenRingTheme = responsiveFontSizes(createTheme({
     palette: {
         mode: 'dark',
         primary: {
-            main: '#F1233C',
+            main: '#c19d53',
         }
     }
 }));

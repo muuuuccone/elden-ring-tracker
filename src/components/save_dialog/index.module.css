@@ -1,0 +1,15 @@
+.dropZone {
+    border: 2px dashed #c19d53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px 0 40px 0;
+}
+
+.location {
+    white-space: wrap;
+}

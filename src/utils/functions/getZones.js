@@ -6,7 +6,7 @@ export function getZones() {
     return Object.keys(items) ;
 }
 
-export function getSubZones(zone: string) {
+export function getSubZones(zone) {
     const items = getItems();
     return Object.keys(items[zone]);
 }

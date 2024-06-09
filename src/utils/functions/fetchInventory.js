@@ -2,7 +2,7 @@ import {getSlotLs} from './getSlotLs';
 import split from "@/utils/functions/split";
 import {getInventory} from "@/utils/functions/getInventory";
 import getIdReversed from "@/utils/functions/getIdReversed";
-export default function fetchInventory(file_read: ArrayBuffer, slot: number) {
+export default function fetchInventory(file_read, slot) {
     const saves_array = new Uint8Array(file_read);
     const slots = getSlotLs(saves_array);
     const inventory = Array.from(getInventory(slots[slot]));

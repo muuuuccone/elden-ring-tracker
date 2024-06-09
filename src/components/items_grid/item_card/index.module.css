@@ -15,4 +15,15 @@
     .actions {
         padding-inline: 1rem;
     }
+
+    .hint{
+        cursor: help;
+        text-decoration: underline;
+        text-decoration-style: dotted;
+    }
+
+}
+.popover {
+    padding: 1rem;
+    max-width: 30rem;
 }
