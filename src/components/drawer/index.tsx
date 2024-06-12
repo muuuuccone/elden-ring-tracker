@@ -76,6 +76,14 @@ export default function ResponsiveDrawer({children}: DrawerProps) {
                 </ListItem>*/}
                 <Divider/>
                 <List>
+                    <ListItem disablePadding>
+                        <ListItemButton onClick={() => setParams('All Items')}>
+                            All Items
+                        </ListItemButton>
+                    </ListItem>
+                </List>
+                <Divider/>
+                <List>
                     {zones && zones.map((text) => (
                         <ListItem key={text} disablePadding>
                             <ListItemButton onClick={() => setParams(text)}>

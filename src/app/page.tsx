@@ -1,5 +1,5 @@
 'use client'
-import ZoneTabs from "@/components/zone_tabs/ZoneTabs";
+import ZoneTabs from "@/components/zone_tabs";
 import {useSearchParams} from "next/navigation";
 import EmptyZone from "@/components/empty_zone";
 import {Suspense} from "react";

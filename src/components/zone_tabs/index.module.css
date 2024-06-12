@@ -1,0 +1,15 @@
+.completebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.check{
+    color: lightgreen;
+}

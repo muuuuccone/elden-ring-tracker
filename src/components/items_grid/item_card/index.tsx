@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import {ChangeEvent, useEffect, useState} from "react";
 import styles from './index.module.css';
 import useSaveData from "@/hooks/useSaveData";
+import sanitizeURL from "@/utils/functions/sanitizeURL";
 
 
 export default function ItemsCard({name, hint, id}: Item) {
@@ -38,7 +39,9 @@ export default function ItemsCard({name, hint, id}: Item) {
     return (
         <Card className={styles.card}>
             <CardContent className={styles.content}>
-                <Image src={`/items/${sanitizeName(name)}.webp`} alt={name} width={100} height={100}/>
+                <a target={'_blank'} href={`https://eldenring.wiki.fextralife.com/${sanitizeURL(name)}`}>
+                    <Image src={`/items/${sanitizeName(name)}.webp`} alt={name} width={100} height={100}/>
+                </a>
                 <Typography>
                     {name}
                 </Typography>

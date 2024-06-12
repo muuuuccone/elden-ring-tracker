@@ -5,3 +5,8 @@ type Item = {
     hint: string,
     multiple: boolean,
 }
+
+type SubZone = {
+    name: string,
+    items: Item[]
+}

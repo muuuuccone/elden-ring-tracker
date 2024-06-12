@@ -8,5 +8,12 @@ export function getZones() {
 
 export function getSubZones(zone) {
     const items = getItems();
-    return Object.keys(items[zone]);
+    const subZones = []
+    Object.keys(items[zone]).forEach(subZone => {
+        subZones.push({
+            name: subZone,
+            items: items[zone][subZone]
+        })
+    })
+    return subZones;
 }
