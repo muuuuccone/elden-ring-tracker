@@ -8,6 +8,7 @@ import useSaveData from "@/hooks/useSaveData";
 import Typography from "@mui/material/Typography";
 import {Check} from "@mui/icons-material";
 import styles from './index.module.css';
+import FilterTab from "@/components/filter_tab";
 
 export default function ZoneTabs(){
     const {inventory} = useSaveData();
@@ -63,6 +64,7 @@ export default function ZoneTabs(){
                     ))}
                 </Select>
             </FormControl>}
+            <FilterTab/>
             <ItemsGrid/>
         </Box>
     )
