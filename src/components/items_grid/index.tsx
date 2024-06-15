@@ -3,6 +3,8 @@ import {getItemsInZone} from "@/utils/functions/getItemsInZone";
 import {Grid} from "@mui/material";
 import ItemsCard from "@/components/items_grid/item_card";
 import getAllItems from "@/utils/functions/getAllItems";
+import useFilter from "@/hooks/useFilter";
+import useSaveData from "@/hooks/useSaveData";
 
 const renderGrid = (items:[string, Item][]) => (
     <Grid container spacing={2} sx={{pt:2}} alignContent={'stretch'}>
@@ -18,18 +20,25 @@ const renderGrid = (items:[string, Item][]) => (
 
 export default function ItemsGrid() {
     const params = useSearchParams();
+    const {hideAcquired} = useFilter();
+    const {inventory} = useSaveData();
     const zone = params.get('zone');
     const subzone = params.get('subzone');
 
-    let items: Item[] = []
+    let items: {[key: string]: Item} | {} = {};
 
     if (zone === 'All Items') {
-        items = getAllItems() as Item[];
+        let _items = getAllItems();
+        items = Object.keys(_items).length > 0 ? _items : {};
     } else {
-        items= subzone ? getItemsInZone(zone ?? '', subzone ?? '') : [];
+        items = subzone ? getItemsInZone(zone ?? '', subzone ?? '') : {};
     }
 
-    const entries = Object.entries(items);
+    if (hideAcquired) {
+        items = Object.fromEntries(Object.entries(items).filter(([key, _]) => !inventory.includes(key)));
+    }
+
+    const entries: [string, Item][] = Object.entries(items);
 
     return renderGrid(entries)
 }
