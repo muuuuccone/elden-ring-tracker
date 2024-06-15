@@ -8,6 +8,7 @@ import {ChangeEvent, useEffect, useState} from "react";
 import styles from './index.module.css';
 import useSaveData from "@/hooks/useSaveData";
 import sanitizeURL from "@/utils/functions/sanitizeURL";
+import getWikiImage from "@/utils/functions/getWikiImage";
 
 
 export default function ItemsCard({name, hint, id}: Item) {
@@ -40,7 +41,7 @@ export default function ItemsCard({name, hint, id}: Item) {
         <Card className={styles.card}>
             <CardContent className={styles.content}>
                 <a target={'_blank'} href={`https://eldenring.wiki.fextralife.com/${sanitizeURL(name)}`}>
-                    <Image src={`/items/${sanitizeName(name)}.webp`} alt={name} width={100} height={100}/>
+                    <img src={getWikiImage(name)} alt={name} className={styles.img}/>
                 </a>
                 <Typography>
                     {name}

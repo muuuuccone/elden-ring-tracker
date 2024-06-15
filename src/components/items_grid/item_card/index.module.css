@@ -22,6 +22,11 @@
         text-decoration-style: dotted;
     }
 
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+
 }
 .popover {
     padding: 1rem;

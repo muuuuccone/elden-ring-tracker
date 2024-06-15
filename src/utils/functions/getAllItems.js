@@ -9,5 +9,6 @@ export default function getAllItems() {
         }
     }
 
+    console.log(allItems)
     return allItems
 }
