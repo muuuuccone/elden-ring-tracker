@@ -27,6 +27,12 @@
         height: 100px;
     }
 
+    .location {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
 }
 .popover {
     padding: 1rem;

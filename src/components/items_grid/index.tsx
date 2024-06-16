@@ -20,7 +20,7 @@ const renderGrid = (items:[string, Item][]) => (
 
 export default function ItemsGrid() {
     const params = useSearchParams();
-    const {hideAcquired} = useFilter();
+    const {hideAcquired, howToDrop} = useFilter();
     const {inventory} = useSaveData();
     const zone = params.get('zone');
     const subzone = params.get('subzone');
@@ -37,6 +37,10 @@ export default function ItemsGrid() {
     if (hideAcquired) {
         items = Object.fromEntries(Object.entries(items).filter(([key, _]) => !inventory.includes(key)));
     }
+
+    if (howToDrop !== 'all')
+        items = Object.fromEntries(Object.entries(items).filter(([_, value]) => value.type === howToDrop));
+
 
     const entries: [string, Item][] = Object.entries(items);
 

@@ -1,17 +1,38 @@
 'use client'
 
-import {Box, Card, CardActions, CardContent, Checkbox, FormControlLabel, Popover} from "@mui/material";
-import Image from "next/image";
-import {sanitizeName} from "@/utils/functions/sanitizeName";
+import {Box, Card, CardActions, CardContent, Checkbox, FormControlLabel, Popover, Tooltip} from "@mui/material";
 import Typography from "@mui/material/Typography";
 import {ChangeEvent, useEffect, useState} from "react";
 import styles from './index.module.css';
 import useSaveData from "@/hooks/useSaveData";
 import sanitizeURL from "@/utils/functions/sanitizeURL";
 import getWikiImage from "@/utils/functions/getWikiImage";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faKhanda, faToolbox, faShop, faBug, faScroll, faSkullCrossbones, faGhost} from "@fortawesome/free-solid-svg-icons";
+import capitalize from "@mui/utils/capitalize";
 
+export const renderIcon = (type: string) => {
+    switch (type) {
+        case 'foe':
+            return <FontAwesomeIcon icon={faKhanda} />
+        case 'chest':
+            return <FontAwesomeIcon icon={faToolbox}/>
+        case 'scarab':
+            return <FontAwesomeIcon icon={faBug}/>
+        case 'boss':
+            return <FontAwesomeIcon icon={faSkullCrossbones}/>
+        case 'merchant':
+            return <FontAwesomeIcon icon={faShop}/>
+        case 'quest':
+            return <FontAwesomeIcon icon={faScroll}/>
+        case 'invader':
+            return <FontAwesomeIcon icon={faGhost}/>
+        default:
+            return <></>
+    }
+}
 
-export default function ItemsCard({name, hint, id}: Item) {
+export default function ItemsCard({name, hint, id, type}: Item) {
     const {inventory, dispatch} = useSaveData();
     const [acquired, setAcquired] = useState(false);
     const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
@@ -46,9 +67,16 @@ export default function ItemsCard({name, hint, id}: Item) {
                 <Typography>
                     {name}
                 </Typography>
-                <Typography variant='caption' className={styles.hint} onMouseEnter={handlePopoverOpen} onMouseLeave={handlePopoverClose}>
-                    location ?
-                </Typography>
+                <Box className={styles.location}>
+                    <Tooltip title={type === 'foe' ? 'Enemies' : capitalize(type)}>
+                        <Typography>
+                            {renderIcon(type)}
+                        </Typography>
+                    </Tooltip>
+                    <Typography variant='caption' className={styles.hint} onMouseEnter={handlePopoverOpen} onMouseLeave={handlePopoverClose}>
+                        hint
+                    </Typography>
+                </Box>
                 <Popover
                     id="mouse-over-popover"
                     sx={{

@@ -1,3 +1,10 @@
 .filterTab {
     width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.howToSelect{
+    width: 10rem;
 }
