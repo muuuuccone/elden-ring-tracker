@@ -6,7 +6,7 @@ export default function fetchInventory(file_read, slot) {
     const saves_array = new Uint8Array(file_read);
     const slots = getSlotLs(saves_array);
     const inventory = Array.from(getInventory(slots[slot]));
-    let id_list = split(inventory, 16);
+    let id_list = split(inventory, 8);
     id_list.forEach((raw_id, index) => (id_list[index] = getIdReversed(raw_id).toUpperCase()));
     return { slots, id_list };
 }
