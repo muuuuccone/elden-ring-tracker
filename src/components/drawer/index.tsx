@@ -15,7 +15,7 @@ import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import styles from './index.module.css';
 import {getZones} from "@/utils/functions/getZones";
-import {useRouter, useSearchParams} from "next/navigation";
+import {useSearchParams} from "next/navigation";
 import {Button} from "@mui/material";
 import SaveDialog from "@/components/save_dialog";
 import {SaveDataContextProvider} from "@/context/SaveDataContext";
@@ -30,7 +30,6 @@ type DrawerProps = {
 }
 
 export default function ResponsiveDrawer({children}: DrawerProps) {
-    const router = useRouter();
     const [mobileOpen, setMobileOpen] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
@@ -58,10 +57,6 @@ export default function ResponsiveDrawer({children}: DrawerProps) {
 
     const zones = getZones();
 
-    const setParams = (param: string) => {
-        router.push(`?zone=${param}`);
-    }
-
     const drawer = (
         <div className={styles.drawer}>
             <Box>
@@ -73,9 +68,11 @@ export default function ResponsiveDrawer({children}: DrawerProps) {
                 <Divider/>
                 <List>
                     <ListItem disablePadding>
-                        <ListItemButton onClick={() => setParams('All Items')}>
-                            All Items
-                        </ListItemButton>
+                        <Link href={`/items?zone=All Items`}>
+                            <ListItemButton>
+                                All Items
+                            </ListItemButton>
+                        </Link>
                     </ListItem>
                 </List>
                 <Divider/>
@@ -90,9 +87,11 @@ export default function ResponsiveDrawer({children}: DrawerProps) {
                 <List>
                     {zones && zones.map((text) => (
                         <ListItem key={text} disablePadding>
-                            <ListItemButton onClick={() => setParams(text)}>
-                                <ListItemText primary={text}/>
-                            </ListItemButton>
+                            <Link href={`/items?zone=${text}`}>
+                                <ListItemButton>
+                                    <ListItemText primary={text}/>
+                                </ListItemButton>
+                            </Link>
                         </ListItem>
                     ))}
                 </List>

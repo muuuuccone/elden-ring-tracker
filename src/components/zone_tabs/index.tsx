@@ -21,7 +21,7 @@ export default function ZoneTabs() {
     }, [params]);
 
     const handleChange = (event: SelectChangeEvent) => {
-        router.push(`?zone=${params.get('zone')}&subzone=${event.target.value}`);
+        router.replace(`?zone=${params.get('zone')}&subzone=${event.target.value}`);
     };
 
     let subZones: SubZone[] = []

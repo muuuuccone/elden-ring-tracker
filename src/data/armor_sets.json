@@ -1,7 +1,12 @@
 [
     {
         "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/alberich-set-elden-ring-wiki-guide.png",
-        "items": [],
+        "items": [
+            "1001D4C0",
+            "1001D524",
+            "1001D588",
+            "1001D5EC"
+        ],
         "link": "https://eldenring.wiki.fextralife.com/Alberich's+Set",
         "name": "Alberich's Set"
     },
@@ -71,7 +76,10 @@
     {
         "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/banished_knight_set.png",
         "items": [
-            "10030E08"
+            "10030D40",
+            "10030DA4",
+            "10030E08",
+            "10030E6C"
         ],
         "link": "https://eldenring.wiki.fextralife.com/Banished+Knight+Set",
         "name": "Banished Knight Set"
@@ -104,13 +112,7 @@
             "1002BF20",
             "1002BF84",
             "1002BFE8",
-            "1002C04C",
-            "1002BF20",
-            "100EB5A0",
-            "10099CF0",
-            "10015F90",
-            "1010C8E0",
-            "100E7EF0"
+            "1002C04C"
         ],
         "link": "https://eldenring.wiki.fextralife.com/Black+Knife+Set",
         "name": "Black Knife Set"
@@ -644,7 +646,10 @@
     },
     {
         "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/marais-set-elden-ring-wiki-guide.png",
-        "items": [],
+        "items": [
+            "100EB1B8",
+            "100EB21C"
+        ],
         "link": "https://eldenring.wiki.fextralife.com/House+Marais+Set",
         "name": "House Marais Set"
     },
@@ -873,7 +878,8 @@
         "items": [
             "10038270",
             "100382D4",
-            "10038338"
+            "10038338",
+            "1003839C"
         ],
         "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry+Set",
         "name": "Night's Cavalry Set"
@@ -881,6 +887,8 @@
     {
         "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/noble-set-elden-ring-wiki-guide.png",
         "items": [
+            "100B4E88",
+            "100B4AA0",
             "100B4B04",
             "100B4BCC",
             "100B4B68"
@@ -1095,6 +1103,10 @@
     {
         "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raya_lucarian_sorcerer_set.png",
         "items": [
+            "100CB5E8",
+            "100CAA30",
+            "100CAE18",
+            "100CB9D0",
             "100CAA94",
             "100CAAF8",
             "100CAB5C"
@@ -1167,7 +1179,11 @@
     },
     {
         "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sage-set-elden-ring-wiki-guide.png",
-        "items": [],
+        "items": [
+            "10068FB0",
+            "10069014",
+            "100690DC"
+        ],
         "link": "https://eldenring.wiki.fextralife.com/Sage+Set",
         "name": "Sage Set"
     },
@@ -1331,185 +1347,5 @@
         ],
         "link": "https://eldenring.wiki.fextralife.com/Zamor+Set",
         "name": "Zamor Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ansbach-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Ansbach's+Set",
-        "name": "Ansbach's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ascetic-set-sote-elden-ring-wiki-guide-removebg-preview.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Ascetic's+Set",
-        "name": "Ascetic's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black-knight-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Black+Knight+Set",
-        "name": "Black Knight Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/common-soldier-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Common+Soldier+Set",
-        "name": "Common Soldier Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dancer-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Dancer's+Set",
-        "name": "Dancer's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/danes-set-sote-elden-ring-wiki-guide-removebg-preview.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Dane's+Set",
-        "name": "Dane's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/death-knight-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Death+Knight+Set",
-        "name": "Death Knight Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/divine-beast-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Divine+Beast+Set",
-        "name": "Divine Beast Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/divine-bird-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Divine+Bird+Set",
-        "name": "Divine Bird Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire-knight-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Fire+Knight+Set",
-        "name": "Fire Knight Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frejas-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Freyja's+Set",
-        "name": "Freyja's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gaius-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Gaius's+Set",
-        "name": "Gaius's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/grave-bird-full-set-sote-elden-ring-wiki-guide-removebg-preview.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Gravebird+Set",
-        "name": "Gravebird Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/priest-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/High+Priest+Set",
-        "name": "High Priest Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/horned-warrior-set-sote-elden-ring-wiki-guide-removebg-preview.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Set",
-        "name": "Horned Warrior Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hornsent-set-sote-elden-ring-wiki-guide-removebg-preview.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Hornsent+Set",
-        "name": "Hornsent Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/igons-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Igon's+Set",
-        "name": "Igon's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/iron-rivet-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Set",
-        "name": "Iron Rivet Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/highland_warrior-set-a-shadow-of-erdtree-set-elding-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Highland+Warrior+Set",
-        "name": "Highland Warrior Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/messmer-soldier-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Set",
-        "name": "Messmer Soldier Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/messmer-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Messmer's+Set",
-        "name": "Messmer's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/night-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Night+Set",
-        "name": "Night Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/oathseeker-knight-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Set",
-        "name": "Oathseeker Knight Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rakshasa-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Rakshasa+Set",
-        "name": "Rakshasa Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rellanas-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Rellana's+Set",
-        "name": "Rellana's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/shadow-militiaman-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Set",
-        "name": "Shadow Militiaman Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/solitude-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Solitude+Set",
-        "name": "Solitude Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/thiollier-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Thiollier's+Set",
-        "name": "Thiollier's Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/verdigris-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Verdigris+Set",
-        "name": "Verdigris Set"
-    },
-    {
-        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/young-lions-set-sote-elden-ring-wiki-guide.png",
-        "items": [],
-        "link": "https://eldenring.wiki.fextralife.com/Young+Lion's+Set",
-        "name": "Young Lion's Set"
     }
 ]
