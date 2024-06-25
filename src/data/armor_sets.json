@@ -1,0 +1,1515 @@
+[
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/alberich-set-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Alberich's+Set",
+        "name": "Alberich's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/albinauric_set.png",
+        "items": [
+            "10102CA0",
+            "10102D04"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Albinauric+Set",
+        "name": "Albinauric Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/allkknowing.png",
+        "items": [
+            "100900B0",
+            "10090114",
+            "10090178",
+            "100901DC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/All-Knowing+Set",
+        "name": "All-Knowing Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/aristocrat_set.png",
+        "items": [
+            "1005A550",
+            "1005A5B4",
+            "1005A67C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Aristocrat+Set",
+        "name": "Aristocrat Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astrologer-set-elden-ring-wiki-guide.png",
+        "items": [
+            "10099CF0",
+            "10099D54",
+            "10099DB8",
+            "10099E1C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Astrologer+Set",
+        "name": "Astrologer Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/azurs_full_set_2.png",
+        "items": [
+            "1008DD88",
+            "1008DDEC",
+            "1008DE50",
+            "1008DACC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Set",
+        "name": "Azur's Glintstone Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bandit-set-elden-ring-wiki-guide.png",
+        "items": [
+            "101560A8",
+            "100E351C",
+            "100E3198",
+            "100E31FC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Bandit+Set",
+        "name": "Bandit Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/banished_knight_set.png",
+        "items": [
+            "10030E08"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Banished+Knight+Set",
+        "name": "Banished Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/battlemage_set.png",
+        "items": [
+            "100F4240",
+            "100F42A4",
+            "100F4308",
+            "100F436C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Battlemage+Set",
+        "name": "Battlemage Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/beast-champion-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100AFC80",
+            "100AFCE4",
+            "100AFD48",
+            "100AFDAC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Beast+Champion+Set",
+        "name": "Beast Champion Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_armor_set-elden-ring-wiki-guide.png",
+        "items": [
+            "1002BF20",
+            "1002BF84",
+            "1002BFE8",
+            "1002C04C",
+            "1002BF20",
+            "100EB5A0",
+            "10099CF0",
+            "10015F90",
+            "1010C8E0",
+            "100E7EF0"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Black+Knife+Set",
+        "name": "Black Knife Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blackflame_monk_set.png",
+        "items": [
+            "10055B18",
+            "10055B7C",
+            "10055BE0",
+            "10055C44"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Blackflame+Monk+Set",
+        "name": "Blackflame Monk Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blaidd'sset.png",
+        "items": [
+            "10029810",
+            "10029874",
+            "100298D8",
+            "1002993C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Blaidd's+Set",
+        "name": "Blaidd's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodhound-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100C0DF0",
+            "100C0E54",
+            "100C0EB8",
+            "100C0F1C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Bloodhound+Knight+Set",
+        "name": "Bloodhound Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodsoaked_set.png",
+        "items": [
+            "100EB5A0",
+            "100EB604",
+            "100EB280"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Bloodsoaked+Set",
+        "name": "Bloodsoaked Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blue-cloth-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100A3930",
+            "100A3994",
+            "100A39F8",
+            "100A3A5C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Blue+Cloth+Set",
+        "name": "Blue Cloth Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blue_festive_set.png",
+        "items": [
+            "100C3CD0",
+            "100C3D34"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Blue+Festive+Set",
+        "name": "Blue Festive Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blue_silver_set.png",
+        "items": [
+            "1003A980",
+            "1003A9E4",
+            "1003AA48",
+            "1003AAAC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Blue+Silver+Set",
+        "name": "Blue Silver Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/briar_set.png",
+        "items": [
+            "10033450",
+            "100334B4",
+            "10033518",
+            "1003357C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Briar+Set",
+        "name": "Briar Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bullgate-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100222E0",
+            "10022344",
+            "100223A8",
+            "1002240C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Bull-Goat+Set",
+        "name": "Bull-Goat Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian-knight-set-elden-ring-wiki-200px.png",
+        "items": [
+            "100EF420",
+            "100EF484",
+            "100EF4E8",
+            "100EF54C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Carian+Knight+Set",
+        "name": "Carian Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/chain_set.png",
+        "items": [
+            "1010C8E0",
+            "1010C944",
+            "1010C9A8",
+            "1010CA0C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Chain+Set",
+        "name": "Chain Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/champion-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100B2390",
+            "100B23F4",
+            "100B2458",
+            "100B24BC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Champion+Set",
+        "name": "Champion Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/cleanrotf.png",
+        "items": [
+            "10053020",
+            "10053084",
+            "100530E8",
+            "1005314C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Cleanrot+Set",
+        "name": "Cleanrot Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/commoner's_set.png",
+        "items": [
+            "100C5C10",
+            "100C5C74",
+            "100C5D3C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Commoner's+Set",
+        "name": "Commoner's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/confessor-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100D6D80",
+            "100D6DE4",
+            "100D6E48",
+            "100D6EAC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Confessor+Set",
+        "name": "Confessor Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/consort's_set.png",
+        "items": [
+            "100EA600",
+            "100EA664",
+            "100EA72C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Consort's+Set",
+        "name": "Consort's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "items": [
+            "1008B290",
+            "1008B2F4",
+            "1008B358",
+            "1008B3BC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Crucible+Axe+Set",
+        "name": "Crucible Axe Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/crucible-tree-set-elden-ring-wiki-guide.png",
+        "items": [
+            "1008B678",
+            "1008B6DC",
+            "1008B358",
+            "1008B3BC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Crucible+Tree+Set",
+        "name": "Crucible Tree Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/cuckoo_knight_set.png",
+        "items": [
+            "101B2920",
+            "101B2984",
+            "101B29E8",
+            "101B2A4C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Cuckoo+Knight+Set",
+        "name": "Cuckoo Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/depraved_perfumer_set.png",
+        "items": [
+            "10083D60",
+            "10083DC4",
+            "10083E28",
+            "10083E8C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Depraved+Perfumer+Set",
+        "name": "Depraved Perfumer Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/drake_knight_set.png",
+        "items": [
+            "1000EA60",
+            "1000EAC4",
+            "1000EB28",
+            "1000EB8C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Drake+Knight+Set",
+        "name": "Drake Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/duelist_set.png",
+        "items": [
+            "1004BAF0",
+            "1004BB54",
+            "1004BC1C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Duelist+Set",
+        "name": "Duelist Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/eccentric_set.png",
+        "items": [
+            "100E57E0",
+            "100E5844",
+            "100E58A8",
+            "100E590C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Eccentric+Set",
+        "name": "Eccentric Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden_lord_set.png",
+        "items": [
+            "100704E0",
+            "10070544",
+            "100705A8",
+            "1007060C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Elden+Lord+Set",
+        "name": "Elden Lord Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/errant_sorcerer_set.png",
+        "items": [
+            "100F1B30",
+            "100F1B94",
+            "100F1BF8",
+            "100F1C5C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Errant+Sorcerer+Set",
+        "name": "Errant Sorcerer Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/exile-set-elden-ring-wiki-guide.png",
+        "items": [
+            "1002E630",
+            "1002E694",
+            "1002E6F8",
+            "1002E75C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Exile+Set",
+        "name": "Exile Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/festive_set.png",
+        "items": [
+            "100C3500",
+            "100C3564"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Festive+Set",
+        "name": "Festive Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fia_set.png",
+        "items": [
+            "101D9A20",
+            "101D9A84"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Fia's+Set",
+        "name": "Fia's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/finger-maiden-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100DC370",
+            "100DC3D4",
+            "100DC49C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Finger+Maiden+Set",
+        "name": "Finger Maiden Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fingerprint_set.png",
+        "items": [
+            "100E7EF0",
+            "100E7F54",
+            "100E7FB8",
+            "100E801C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Fingerprint+Set",
+        "name": "Fingerprint Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire_monk_set_transparent.png",
+        "items": [
+            "10055730",
+            "10055794",
+            "100557F8",
+            "1005585C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Fire+Monk+Set",
+        "name": "Fire Monk Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire_prelate_set.png",
+        "items": [
+            "10057E40",
+            "10057EA4",
+            "10057F08",
+            "10057F6C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Fire+Prelate+Set",
+        "name": "Fire Prelate Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fur_set.png",
+        "items": [
+            "100493E0",
+            "10049444",
+            "1004950C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Fur+Set",
+        "name": "Fur Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gelmir-set-elden-ring-wiki-guide.png",
+        "items": [
+            "101ADB00",
+            "101ADB64",
+            "101ADBC8",
+            "101ADC2C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Gelmir+Knight+Set",
+        "name": "Gelmir Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radahn_set.png",
+        "items": [
+            "10072BF0",
+            "10072C54",
+            "10072CB8",
+            "10072D1C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/General+Radahn+Set",
+        "name": "General Radahn Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godrick_foot_soldier_set.png",
+        "items": [
+            "101BEC70",
+            "101BECD4",
+            "101BED38",
+            "101BED9C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Godrick+Foot+Soldier+Set",
+        "name": "Godrick Foot Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godrick_knight_set.png",
+        "items": [
+            "101B0210",
+            "101B0274",
+            "101B02D8",
+            "101B033C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Godrick+Knight+Set",
+        "name": "Godrick Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godrick_soldier_set.png",
+        "items": [
+            "1019F0A0",
+            "1019F104",
+            "1019F168",
+            "1019F1CC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Godrick+Soldier+Set",
+        "name": "Godrick Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godskin-apostle-set-elden-ring-wiki-guide.png",
+        "items": [
+            "1007EF40",
+            "1007EFA4",
+            "1007F008",
+            "1007F06C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Godskin+Apostle+Set",
+        "name": "Godskin Apostle Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godskin_noble_set.png",
+        "items": [
+            "10081650",
+            "100816B4",
+            "10081718",
+            "1008177C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Godskin+Noble+Set",
+        "name": "Godskin Noble Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/goldmask_set.png",
+        "items": [
+            "100FDE80",
+            "100FDEE4",
+            "100FDF48",
+            "100FDFAC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Goldmask's+Set",
+        "name": "Goldmask's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/guardian_set.png",
+        "items": [
+            "10050910",
+            "10050D5C",
+            "100509D8",
+            "10050A3C",
+            "10050974"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Guardian+Set",
+        "name": "Guardian Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/guilty_set.png",
+        "items": [
+            "10027100",
+            "10027164",
+            "1002722C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Guilty+Set",
+        "name": "Guilty Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/haligtree_foot_soldier_set.png",
+        "items": [
+            "101CAFC0",
+            "101CB024",
+            "101BED38",
+            "101BED9C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Haligtree+Foot+Soldier+Set",
+        "name": "Haligtree Foot Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/haligtree_knight_set.png",
+        "items": [
+            "101BC560",
+            "101BC5C4",
+            "101BC628",
+            "101BC68C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Haligtree+Knight+Set",
+        "name": "Haligtree Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/haligtree_set.png",
+        "items": [
+            "101AB3F0",
+            "101AB454",
+            "101AB4B8",
+            "101AB51C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Haligtree+Soldier+Set",
+        "name": "Haligtree Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/high_page_set.png",
+        "items": [
+            "101E5D70",
+            "101E5DD4",
+            "10035C8C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/High+Page+Set",
+        "name": "High Page Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/highwayman_set.png",
+        "items": [
+            "101E3660",
+            "101E36C4",
+            "101E3728",
+            "101BED9C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Highwayman+Set",
+        "name": "Highwayman Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hoslow-set-elden-ring-wiki-guide.png",
+        "items": [
+            "1009EEF8",
+            "1009EB10",
+            "1009EB74",
+            "1009EBD8",
+            "1009EC3C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Hoslow's+Set",
+        "name": "Hoslow's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/marais-set-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/House+Marais+Set",
+        "name": "House Marais Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/iron_set.png",
+        "items": [
+            "10009C40",
+            "10009CA4",
+            "10009D08",
+            "10009D6C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Iron+Set",
+        "name": "Iron Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/juvenile-scholar-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100FB770",
+            "100FB7D4"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Juvenile+Scholar+Set",
+        "name": "Juvenile Scholar Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/kaiden_set-elden-ring-wiki-guide.png",
+        "items": [
+            "1000C350",
+            "1000C3B4",
+            "1000C418",
+            "1000C47C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Kaiden+Set",
+        "name": "Kaiden Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/knight-set-elden-ring-wiki-200px.png",
+        "items": [
+            "1016E360",
+            "1016E3C4",
+            "1016E428",
+            "1016E48C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Knight+Set",
+        "name": "Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/samurai-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100D4670",
+            "100D46D4",
+            "100D4738",
+            "100D479C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Land+of+Reeds+Set",
+        "name": "Land of Reeds Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lazuli_sorcerer_set.png",
+        "items": [
+            "100CB200",
+            "101EF9B0",
+            "100CAAF8",
+            "100CAB5C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Lazuli+Sorcerer+Set",
+        "name": "Lazuli Sorcerer Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/leather_set.png",
+        "items": [
+            "10155CC0",
+            "10155D24",
+            "10155D88",
+            "10155DEC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Leather+Set",
+        "name": "Leather Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/leyndell_foot_soldier_set.png",
+        "items": [
+            "101C3A90",
+            "101C3AF4",
+            "101BED38",
+            "101BED9C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Leyndell+Foot+Soldier+Set",
+        "name": "Leyndell Foot Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/leyndell_knight_set.png",
+        "items": [
+            "101B5030",
+            "101B5094",
+            "101B50F8",
+            "101B515C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Leyndell+Knight+Set",
+        "name": "Leyndell Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/leyndell_soldier_armor.png",
+        "items": [
+            "101A3EC0",
+            "101A3F24",
+            "101A3F88",
+            "101A3FEC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Leyndell+Soldier+Set",
+        "name": "Leyndell Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lionel-set-elden-ring-wiki-guide.png",
+        "items": [
+            "1009C400",
+            "1009C464",
+            "1009C4C8",
+            "1009C52C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Lionel's+Set",
+        "name": "Lionel's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lusat's_set.png",
+        "items": [
+            "1008D9A0",
+            "1008DA04",
+            "1008DA68",
+            "1008DACC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Lusat's+Set",
+        "name": "Lusat's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malenia_set.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Malenia's+Set",
+        "name": "Malenia's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malformed-dragon-set-elden-ring-wiki-guide.png",
+        "items": [
+            "1003F7A0",
+            "1003F804",
+            "1003F868",
+            "1003F8CC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Malformed+Dragon+Set",
+        "name": "Malformed Dragon Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh_set.png",
+        "items": [
+            "100B98C0",
+            "100B9924",
+            "100B9988",
+            "100B99EC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Maliketh's+Set",
+        "name": "Maliketh's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/marionette_soldier_set.png",
+        "items": [
+            "100CD140",
+            "100CD1A4"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Marionette+Soldier+Set",
+        "name": "Marionette Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mausoleum_foot_soldier_set.png",
+        "items": [
+            "101C8914",
+            "101BED38",
+            "101BED9C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Mausoleum+Foot+Soldier+Set",
+        "name": "Mausoleum Foot Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mausoleum_knight_set.png",
+        "items": [
+            "101B9EB4",
+            "101B9F18",
+            "101B9F7C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Mausoleum+Knight+Set",
+        "name": "Mausoleum\u00a0Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mausoleum_soldier_set.png",
+        "items": [
+            "101A8D44",
+            "101A8DA8",
+            "101A8E0C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Mausoleum+Soldier+Set",
+        "name": "Mausoleum\u00a0Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mushroom-set-elden-ring-wiki-guide.png",
+        "items": [
+            "101EAB90",
+            "10113E10",
+            "10113E74",
+            "10113ED8",
+            "10113F3C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Mushroom+Set",
+        "name": "Mushroom Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/night_maiden_set.png",
+        "items": [
+            "10047888",
+            "100478EC",
+            "10046D98",
+            "10046DFC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Night+Maiden+Set",
+        "name": "Night Maiden Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/night's_cavalry_set.png",
+        "items": [
+            "10038270",
+            "100382D4",
+            "10038338"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Night's+Cavalry+Set",
+        "name": "Night's Cavalry Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/noble-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100B4B04",
+            "100B4BCC",
+            "100B4B68"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Noble's+Set",
+        "name": "Noble's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/nomadic_merchant's_set.png",
+        "items": [
+            "1003D090",
+            "1003D0F4",
+            "1003D1BC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Nomadic+Merchant's+Set",
+        "name": "Nomadic Merchant's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/nox_monk_set-elden-ring-wiki-guide.png",
+        "items": [
+            "10046CD0",
+            "10046D34",
+            "10046D98",
+            "10046DFC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Nox+Monk+Set",
+        "name": "Nox Monk Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/nox_swordstress_set.png",
+        "items": [
+            "100474A0",
+            "10047504",
+            "10046D98",
+            "10046DFC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Nox+Swordstress+Set",
+        "name": "Nox Swordstress Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/old_aristocrat_set.png",
+        "items": [
+            "1005F370",
+            "1005F3D4",
+            "1005F49C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Old+Aristocrat+Set",
+        "name": "Old Aristocrat Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/omen_set.png",
+        "items": [
+            "100ECD10",
+            "100ECD74",
+            "100ECDD8",
+            "100ECE3C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Omen+Set",
+        "name": "Omen Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/omenkiller-set-elden-ring-wiki-guide.png",
+        "items": [
+            "101CD6D0",
+            "101CD734",
+            "101CD798",
+            "101CD7FC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Omenkiller+Set",
+        "name": "Omenkiller Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/page-set-elden-ring-wiki-guide.png",
+        "items": [
+            "10035B60",
+            "10035BC4",
+            "10035C8C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Page+Set",
+        "name": "Page Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/perfumer_set.png",
+        "items": [
+            "10015F90",
+            "10015FF4",
+            "10016058",
+            "100160BC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Perfumer+Set",
+        "name": "Perfumer Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/traveler-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100186A0",
+            "10018704",
+            "10018768",
+            "100187CC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Perfumer+Traveler's+Set",
+        "name": "Perfumer Traveler's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/preceptor-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100DE2B0",
+            "100DE314",
+            "100DE378",
+            "100DE3DC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Preceptor's+Set",
+        "name": "Preceptor's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/prisoner-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100D9490",
+            "100D94F4",
+            "100D95BC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Prisoner+Set",
+        "name": "Prisoner Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/prophet-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100975E0",
+            "10097E14",
+            "1009770C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Prophet+Set",
+        "name": "Prophet Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/queen-set-elden-ring-wiki-guide.png",
+        "items": [
+            "1007C830",
+            "1007C894",
+            "1007C8F8",
+            "1007C95C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Queen+of+the+Full+Moon+Set",
+        "name": "Queen of the Full Moon Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radahn_foot_soldier_set.png",
+        "items": [
+            "101C61A0",
+            "101C6204",
+            "101BED38",
+            "101BED9C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Radahn+Foot+Soldier+Set",
+        "name": "Radahn Foot Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radahn_soldier_set_fixed.png",
+        "items": [
+            "101A65D0",
+            "101A6634",
+            "101A6698",
+            "101A66FC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Radahn+Soldier+Set",
+        "name": "Radahn Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "items": [
+            "100D1F60",
+            "100D1FC4",
+            "100D2028",
+            "100D208C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Raging+Wolf+Set",
+        "name": "Raging Wolf Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raptor's_set.png",
+        "items": [
+            "100E30D0",
+            "100E3134",
+            "100E3198",
+            "100E31FC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Raptor's+Set",
+        "name": "Raptor's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raya_lucarian_foot_soldier_set.png",
+        "items": [
+            "101C1380",
+            "101C13E4",
+            "101BED38",
+            "101BED9C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Foot+Soldier+Set",
+        "name": "Raya Lucarian Foot Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raya_lucarian_soldier_set.png",
+        "items": [
+            "101A17B0",
+            "101A1814",
+            "101A1878",
+            "101A18DC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Soldier+Set",
+        "name": "Raya Lucarian Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raya_lucarian_sorcerer_set.png",
+        "items": [
+            "100CAA94",
+            "100CAAF8",
+            "100CAB5C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Raya+Lucarian+Sorcerer+Set",
+        "name": "Raya Lucarian Sorcerer Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/redmane_knight_set.png",
+        "items": [
+            "101B7740",
+            "101B77A4",
+            "101B7808",
+            "101B786C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Redmane+Knight+Set",
+        "name": "Redmane Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ronin's_set.png",
+        "items": [
+            "100249F0",
+            "10024A54",
+            "10024AB8",
+            "10024B1C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Ronin's+Set",
+        "name": "Ronin's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rotten_duelist_set.png",
+        "items": [
+            "101E8480",
+            "101E84E4",
+            "101E85AC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Rotten+Duelist+Set",
+        "name": "Rotten Duelist Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/royal_knight.png",
+        "items": [
+            "100445C0",
+            "10044624",
+            "10044688",
+            "100446EC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Royal+Knight+Set",
+        "name": "Royal Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/royal_remains_set.png",
+        "items": [
+            "100A8750",
+            "100A87B4",
+            "100A8818",
+            "100A887C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Royal+Remains+Set",
+        "name": "Royal Remains Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ruler-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100EA9E8",
+            "100EAA4C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Ruler's+Set",
+        "name": "Ruler's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sage-set-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Sage+Set",
+        "name": "Sage Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sanguine_noble_armor_set-elden-ring-wiki-guide.png",
+        "items": [
+            "1004E200",
+            "1004E264",
+            "1004E32C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Sanguine+Noble+Set",
+        "name": "Sanguine Noble Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scaled-set-elden-ring-wiki-guide.png",
+        "items": [
+            "10013880",
+            "100138E4",
+            "10013948",
+            "100139AC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Scaled+Set",
+        "name": "Scaled Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/shaman_set.png",
+        "items": [
+            "100497C8",
+            "1004982C",
+            "100498F4"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Shaman+Set",
+        "name": "Shaman Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/snowwitch-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100F6950",
+            "100F69B4",
+            "100F6A7C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Snow+Witch+Set",
+        "name": "Snow Witch Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/spellblade-set-elden-ring-wiki-guide.png",
+        "items": [
+            "1001FBD0",
+            "1001FC34",
+            "1001FC98",
+            "1001FCFC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Spellblade+Set",
+        "name": "Spellblade Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/melinas_set.png",
+        "items": [
+            "100F90C4",
+            "100F9128",
+            "100F918C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Melina's+Set",
+        "name": "Traveler's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/travelling_maiden_set.png",
+        "items": [
+            "100DBBA0",
+            "100DBC04",
+            "100DBC68",
+            "100DBCCC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Traveling+Maiden+Set",
+        "name": "Traveling Maiden Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/tree_sentinel_set_pose.png",
+        "items": [
+            "10041EB0",
+            "10041F14",
+            "10041F78",
+            "10041FDC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Tree+Sentinel+Set",
+        "name": "Tree Sentinel Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/twinned-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100927C0",
+            "10092824",
+            "10092888",
+            "100928EC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Twinned+Set",
+        "name": "Twinned Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vagabond-knight-set-elden-ring-wiki-guide.png",
+        "items": [
+            "100A1220",
+            "100A1284",
+            "100A12E8",
+            "100A134C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Vagabond+Knight+Set",
+        "name": "Vagabond Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/veteran_set.png",
+        "items": [
+            "100BE6E0",
+            "100BE744",
+            "100BE7A8",
+            "100BE80C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Veteran's+Set",
+        "name": "Veteran's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vulgar_militia_set.png",
+        "items": [
+            "100668A0",
+            "10066904",
+            "10066968",
+            "100669CC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Vulgar+Militia+Set",
+        "name": "Vulgar Militia Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/war_surgeon_set.png",
+        "items": [
+            "100A6040",
+            "100A60A4",
+            "100A6108",
+            "100A616C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/War+Surgeon+Set",
+        "name": "War Surgeon Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/white_reed_set.png",
+        "items": [
+            "100D4E40",
+            "100D4EA4",
+            "100D4F08",
+            "100D4F6C"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/White+Reed+Set",
+        "name": "White Reed Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/zamor-set-elden-ring-wiki-guide.png",
+        "items": [
+            "101053B0",
+            "10105414",
+            "10105478",
+            "101054DC"
+        ],
+        "link": "https://eldenring.wiki.fextralife.com/Zamor+Set",
+        "name": "Zamor Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ansbach-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Ansbach's+Set",
+        "name": "Ansbach's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ascetic-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Ascetic's+Set",
+        "name": "Ascetic's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black-knight-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Black+Knight+Set",
+        "name": "Black Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/common-soldier-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Common+Soldier+Set",
+        "name": "Common Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dancer-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Dancer's+Set",
+        "name": "Dancer's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/danes-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Dane's+Set",
+        "name": "Dane's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/death-knight-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Death+Knight+Set",
+        "name": "Death Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/divine-beast-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Divine+Beast+Set",
+        "name": "Divine Beast Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/divine-bird-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Divine+Bird+Set",
+        "name": "Divine Bird Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire-knight-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Fire+Knight+Set",
+        "name": "Fire Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frejas-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Freyja's+Set",
+        "name": "Freyja's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gaius-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Gaius's+Set",
+        "name": "Gaius's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/grave-bird-full-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Gravebird+Set",
+        "name": "Gravebird Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/priest-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/High+Priest+Set",
+        "name": "High Priest Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/horned-warrior-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Set",
+        "name": "Horned Warrior Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hornsent-set-sote-elden-ring-wiki-guide-removebg-preview.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Hornsent+Set",
+        "name": "Hornsent Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/igons-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Igon's+Set",
+        "name": "Igon's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/iron-rivet-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Set",
+        "name": "Iron Rivet Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/highland_warrior-set-a-shadow-of-erdtree-set-elding-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Highland+Warrior+Set",
+        "name": "Highland Warrior Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/messmer-soldier-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Set",
+        "name": "Messmer Soldier Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/messmer-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Messmer's+Set",
+        "name": "Messmer's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/night-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Night+Set",
+        "name": "Night Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/oathseeker-knight-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Set",
+        "name": "Oathseeker Knight Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rakshasa-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Rakshasa+Set",
+        "name": "Rakshasa Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rellanas-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Rellana's+Set",
+        "name": "Rellana's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/shadow-militiaman-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Set",
+        "name": "Shadow Militiaman Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/solitude-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Solitude+Set",
+        "name": "Solitude Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/thiollier-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Thiollier's+Set",
+        "name": "Thiollier's Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/verdigris-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Verdigris+Set",
+        "name": "Verdigris Set"
+    },
+    {
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/young-lions-set-sote-elden-ring-wiki-guide.png",
+        "items": [],
+        "link": "https://eldenring.wiki.fextralife.com/Young+Lion's+Set",
+        "name": "Young Lion's Set"
+    }
+]

@@ -21,6 +21,7 @@ import SaveDialog from "@/components/save_dialog";
 import {SaveDataContextProvider} from "@/context/SaveDataContext";
 import Image from "next/image";
 import {FilterContextProvider} from "@/context/FilterContext";
+import Link from "next/link";
 
 const drawerWidth = 240;
 
@@ -74,6 +75,14 @@ export default function ResponsiveDrawer({children}: DrawerProps) {
                     <ListItem disablePadding>
                         <ListItemButton onClick={() => setParams('All Items')}>
                             All Items
+                        </ListItemButton>
+                    </ListItem>
+                </List>
+                <Divider/>
+                <List>
+                    <ListItem disablePadding>
+                        <ListItemButton href={'/armor'}>
+                            Armor sets
                         </ListItemButton>
                     </ListItem>
                 </List>

@@ -1,4 +1,5 @@
 import {getItems} from "./readJsonFiles";
+import {getMaster} from "./readJsonFiles";
 
 export default function getAllItems() {
     const items = getItems()
@@ -9,6 +10,5 @@ export default function getAllItems() {
         }
     }
 
-    console.log(allItems)
     return allItems
 }
