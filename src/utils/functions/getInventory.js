@@ -9,7 +9,7 @@ function subfinder(mylist, pattern) {
 }
 
 export function getInventory(slot) {
-    const index = subfinder(slot, pattern2) + pattern.byteLength + 8;
+    const index = subfinder(slot, pattern2) + pattern2.byteLength + 3;
     const index1 = subfinder(slot.subarray(index, slot.byteLength), new Uint8Array(50).fill(0)) + index + 6;
     return slot.subarray(index, index1);
 }
